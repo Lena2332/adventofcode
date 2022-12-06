@@ -16,6 +16,7 @@ foreach ($lines as $line) {
 }
 
 $elfsData = [];
+
 foreach ($dataArr as $k =>  $elf) {
     $elfsData[$k] = array_sum($elf);
 }
